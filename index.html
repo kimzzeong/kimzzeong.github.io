@@ -87,7 +87,7 @@ function onReceivedActivityMessageViaJavascriptInterface(json){
                     fullRoadAddr += extraRoadAddr;
                 }				
 
-				window.Android.processDATA(data.zonecode + ", " + fullRoadAddr);
+				window.Android.processDATA(data.zonecode + "," + fullRoadAddr);
             },
             width : '100%',
             height : '100%'
